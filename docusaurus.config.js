@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === "development") {
 } else {
   if (process.env.DEPLOYMENT_ENV === "chovrio.github.io") {
     favicon = "/img/favicon.ico";
-    baseUrl = "festudy";
+    baseUrl = "docusaurus-demo";
   } else {
     favicon = "img/favicon.ico";
     baseUrl = "/";
